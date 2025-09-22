@@ -20,6 +20,7 @@ namespace CalculatorClient
                 new Calculator.AddRequest { Num1 = num1, Num2 = num2 });
 
             Console.WriteLine($"Result: {response.Result}");
+            Console.ReadLine();
         }
     }
 }
